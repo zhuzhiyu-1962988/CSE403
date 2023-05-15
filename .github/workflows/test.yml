@@ -2,6 +2,7 @@ name: Test and Measure Coverage
 
 on:
   pull_request:
+  push:
 
 jobs:
   build:
