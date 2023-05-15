@@ -25,3 +25,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           min-coverage-overall: 40
           min-coverage-changed-files: 60
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
